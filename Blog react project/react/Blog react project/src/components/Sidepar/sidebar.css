@@ -1,0 +1,65 @@
+.sidebar {
+    flex: 3;
+    margin: 20px;
+    padding-bottom: 30px;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+/* .sidebar > img{
+    margin-top: 15px;
+    width: 200px;
+    height: 200px;
+} */
+.sidebar > p{
+    padding: 30px;
+}
+
+.sidebarItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebarTitle {
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    text-align: center;
+    border-top: 1px solid #a7a7a7;
+    border-bottom: 1px solid #a7a7a7;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color: #222;
+
+
+}
+
+.sidebarSocial {
+    margin-top: 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 250px;
+}
+.sidebarIcon{
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sidebarList{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.sidebarListItem{
+    display: inline-block;
+    width: 50%;
+}

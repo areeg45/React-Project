@@ -1,0 +1,56 @@
+.addpost{
+    padding-top: 50px;
+}
+.addImg{
+    margin-left: 150px;
+    width: 70vw;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.writeform{
+    position: relative;
+}
+
+.writeformgroub{
+    margin-left: 150px;
+}
+
+
+.uploadButton {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.uploadButton:hover {
+    background-color: #0056b3;
+}
+.writeInput{
+    font-size: 30px;
+    border: none;
+    padding: 20px;
+    width: 70vw;
+}
+.writeInput:focus{
+    outline: none;
+}
+.writeText{
+    font-size: 20px;
+    /* height: 100vh; */
+}
+.writeSubmite{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    background-color: #fd9abf;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
